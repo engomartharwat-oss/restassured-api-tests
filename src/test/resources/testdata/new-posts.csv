@@ -1,0 +1,4 @@
+userId,title,body
+1,QA automation basics,Writing the first REST Assured test
+5,Status codes,201 means the resource was created
+10,Schema validation,Check the shape of the JSON response
