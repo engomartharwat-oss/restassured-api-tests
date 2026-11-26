@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="REST API Suite" verbose="1" parallel="classes" thread-count="4">
+  <test name="JSONPlaceholder API">
+    <classes>
+      <class name="com.omartharwat.api.tests.PostsReadTests"/>
+      <class name="com.omartharwat.api.tests.PostsWriteTests"/>
+      <class name="com.omartharwat.api.tests.UsersTests"/>
+      <class name="com.omartharwat.api.tests.CommentsAndTodosTests"/>
+      <class name="com.omartharwat.api.tests.NegativeTests"/>
+    </classes>
+  </test>
+</suite>
